@@ -15,6 +15,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, accuracy_score
 
+
+print("Fake News Detection Model")
+print("This model uses TF-IDF and Naive Bayes for classification.")
+print("Ensure you have the required CSV files in the correct path.")    
+
 # Download NLTK resources
 nltk.download('stopwords')
 nltk.download('punkt')
